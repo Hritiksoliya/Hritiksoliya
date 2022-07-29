@@ -7,7 +7,7 @@ int main()
     printf("Enter Number of Elements : ");
     scanf("%d",&n);
  
-    ptr=(int *)calloc(n,sizeof(int));
+    ptr=(int *)malloc(n*sizeof(int));
  
     if(ptr==NULL)
     {
